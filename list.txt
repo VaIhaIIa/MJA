@@ -1,4 +1,4 @@
-Inspired by Artist 1
-Inspired by Artist 2
-Inspired by Artist 3
-Inspired by Artist 4
+name=A1, text=Inspired by Artist 1
+name=B1, text=Inspired by Artist 2
+name=C1, text=Inspired by Artist 3
+name=D1, text=Inspired by Artist 4
