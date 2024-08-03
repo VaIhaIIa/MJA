@@ -1,3 +1,5 @@
-A1=Inspired by Artist 1
-A2=Inspired by Artist 2
-A3=Inspired by Artist 3
+[
+  { "name": "A1", "content": "Inspired by Artist 1" },
+  { "name": "A2", "content": "Inspired by Artist 2" },
+  { "name": "A3", "content": "Inspired by Artist 3" }
+]
