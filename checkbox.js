@@ -4,7 +4,7 @@
 var button = document.createElement('button');
 button.textContent = 'Tile';
 button.style.position = 'absolute';
-button.style.left = '600px';
+button.style.left = '500px';
 button.style.top = '78px';
     button.style.zIndex = '9999';      // Ensure it is on top of other elements
     button.style.padding = '5px 5px'; // Button padding
