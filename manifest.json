@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Midjourney Alpha Toolbox",
+  "version": "1.0.5",
+  "description": "Injects a checkbox that appends --tile to a specific textarea when checked",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.midjourney.com/*", "https://alpha.midjourney.com/*"],
+      "js": ["contentScript.js"]
+    }
+  ],
+  "browser_action": {
+    "default_popup": "popup.html"
+  }
+}
