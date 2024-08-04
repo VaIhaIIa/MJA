@@ -37,9 +37,7 @@
             // Clean the text based on the function
             if (element.value !== undefined) {
                 element.value = cleanInput(element.value); // For input elements
-            } else {
-                element.innerText = cleanInput(element.innerText); // For non-input elements
-            }
+            } 
         });
     }
 
